@@ -5,7 +5,7 @@ from chatgpt_wrapper import ChatGPT
 import csv
 
 # Set your OpenAI API key (different for each chatGPT account)
-openai.api_key = "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"
+openai.api_key = "ENTER-API"
 
 # Define a function to search for the total number of patients analyzed at week 24
 def search_for_week24_patients(url):
