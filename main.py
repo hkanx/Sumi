@@ -1,10 +1,11 @@
 import openai
 import requests
 from bs4 import BeautifulSoup
+from chatgpt_wrapper import ChatGPT
 import csv
 
-# Set your OpenAI API key
-openai.api_key = "API-link"
+# Set your OpenAI API key (different for each chatGPT account)
+openai.api_key = "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"
 
 # Define a function to search for the total number of patients analyzed at week 24
 def search_for_week24_patients(url):
@@ -72,3 +73,12 @@ with open("clinical_trial_data.csv", "w", newline="", encoding="utf-8") as csvfi
     writer.writeheader()
     for data in data_list:
         writer.writerow(data)
+
+
+# Integrate chatGPT with features
+# bot = ChatGPT()
+
+# response = bot.ask("what is the number of participants with at least 35 percent reduction in spleen volume from baseline at week 24 for each treatment type mentioned?")
+# print(response)
+
+
