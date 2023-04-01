@@ -7,6 +7,10 @@ It was determined that several webpages in a given pool of data regarding a dise
 
 It was also determined that the number of treatments vary for each webpage, which changes how the keyword phrase should be utilized to search on a page. Some studies have three treatments, while some have just one treatment. In particular, the key phrases for webpages with just 1 treatment being analyzed should be less restricting since the factors that make up the success of a treatment may already be implied in a previous or different section from where the outcomes are recorded. 
 
+
+
+
+
 **Current Challenges:**
 There are currently quite a few challenges being tackled. 
 
